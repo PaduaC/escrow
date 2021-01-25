@@ -1,0 +1,22 @@
+{
+  "name": "escrow",
+  "version": "1.0.0",
+  "description": "escrow contract made in solidity",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaduaC/escrow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaduaC/escrow/issues"
+  },
+  "homepage": "https://github.com/PaduaC/escrow#readme"
+}
