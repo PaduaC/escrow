@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.5.2;
 
 contract Escrow {
     address public payer;
@@ -26,7 +26,7 @@ contract Escrow {
     function release() public {
         require(
             address(this).balance == amount,
-            "Full amount of funds must be sent before relasing funds"
+            "Full amount of funds must be sent before releasing funds"
         );
         require(msg.sender == lawyer, "Only lawyer can release funds");
         payee.transfer(amount);
